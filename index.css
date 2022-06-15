@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;400&family=Fascinate&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;700&family=Fascinate&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+
+}
+main{
+    width: 50%;
+    display:flex;  
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+}
+/**  First Card Begins **/
+.first-card{
+    background-color: hsl(31, 77%, 52%);
+    color:hsla(0, 0%, 100%, 0.75);
+    padding:10px;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+
+}
+.first-card img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.first-card h3{
+    color:  hsl(0, 0%, 95%);
+    padding-bottom: 30px;
+    padding-top: 30;
+    padding-left: 30px;
+    font-family: 'Big Shoulders Display';
+}
+.first-card .text{
+    color:  hsl(0, 0%, 95%);
+    padding-bottom: 30px;
+    padding-top: 30;
+    padding-left: 30px;
+    font-weight: 400;
+}
+.first-card .btn{
+    padding-bottom: 30px;
+    padding-top: 30;
+    padding-left: 30px;
+}
+.first-card button{
+    background-color:  hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border-style: none;
+}
+/** First Card Ends **/
+/**  Second Card Begins **/
+.second-card{
+    background-color: hsl(184, 100%, 22%);
+    color:hsla(0, 0%, 100%, 0.75);
+    padding:10px;
+   
+}
+.second-card img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.second-card h3{
+    color:  hsl(0, 0%, 95%);
+    padding-bottom: 30px;
+    padding-top: 30;
+    padding-left: 30px;
+    font-weight: 400;
+    font-family: 'Big Shoulders Display';
+}
+.second-card .text{
+    color:  hsl(0, 0%, 95%);
+    padding-bottom: 30px;
+    padding-top: 30;
+    padding-left: 30px;
+    font-weight: 400;
+}
+.second-card .btn{
+    padding-bottom: 30px;
+    padding-top: 30;
+    padding-left: 30px;
+}
+.second-card button{
+    background-color:  hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border-style: none;
+}
+/** Second Card Ends **/
+/** Third Card Begins **/
+.third-card{
+    background-color:  hsl(179, 100%, 13%);
+    color:hsla(0, 0%, 100%, 0.75);
+    padding:10px;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+.third-card img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.third-card h3{
+    color:  hsl(0, 0%, 95%);
+    padding-bottom: 30px;
+    padding-top: 30;
+    padding-left: 30px;
+    font-weight: 400;
+    font-family: 'Big Shoulders Display';
+}
+.third-card .text{
+    color:  hsl(0, 0%, 95%);
+    padding-bottom: 30px;
+    padding-top: 30;
+    padding-left: 30px;
+    font-weight: 400;
+}
+.third-card .btn{
+    padding-bottom: 30px;
+    padding-top: 30;
+    padding-left: 30px;
+}
+.third-card button{
+    background-color:  hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border-style: none;
+}
+/** Third Card Ends **/
+
+
